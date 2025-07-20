@@ -1,1 +1,1 @@
-# fullstackopen-part-0
+# fullstackopen all submissions repo
