@@ -5,7 +5,7 @@ sequenceDiagram
     participant server
 
 
-    user->>browser: Sumits new note
+    user->>browser: Submits new note
     activate browser
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
