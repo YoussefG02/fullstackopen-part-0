@@ -6,8 +6,8 @@ sequenceDiagram
 
 
     user->>browser: Loads the spa notes page
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
     activate browser
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
     activate server
     server-->>browser: HTML document
     deactivate server
